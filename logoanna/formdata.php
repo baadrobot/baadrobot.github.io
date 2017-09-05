@@ -1,13 +1,12 @@
 <?php
 
-$result = mail("test@test.ru", "Контактная форма", "Данные контактной формы: 
-		\nФамилия и имя: $_POST[selfName];
-		\nЭлектронная почта: $_POST[selfMail];
-		\nНомер телефона: $_POST[selfNumber];
-		\nРебенчитакову: $_POST[yearsOld] лет/года;
-		\nУже занимались логопедией?: $_POST[answer1];
-		\nЕсли да то как?: $_POST[answer2] $_POST[answer3];
-		\nВаш вопрос: $_POST[question].
+$result = mail("logoanna1@gmail.com", "Контактная форма", "Данные контактной формы: 
+		\nФамилия и имя: $_POST[guest_name];
+		\nНомер телефона: $_POST[guest_phone];
+		\nЭлектронная почта: $_POST[guest_email];
+		\nРебенку: $_POST[guest_kid_age] лет/года;
+		\nВы уже занимались с логопедом? - $_POST[guest_logoped_lessons];
+		\nВаш вопрос: $_POST[guest_question].
 	");
 
 if ($result) {
