@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  </head>
+  <body>
+	<nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand"><img src="images/logoanna.png" width="311px" height="61px"></a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#my_navbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="my_navbar">
+          <ul class="nav navbar-nav">
+            <li class="nav-item mx-1">
+              <a href="index.html" class="nav-link btn btn-info text-white">Главная</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#" class="nav-link btn btn-info text-white">Материалы</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#" class="nav-link btn btn-info text-white">Видео</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="#" class="nav-link btn btn-info text-white">О работе</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="contacts.html" class="nav-link btn btn-info text-white">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+    	<div class="row justify-content-center">
+    		<div class="col-11 col-sm-9 col-md-5 col-lg-4 col-xl-3">
+    			<div class="card text-center" style="border: none;">
+    				<div class="card-header h5 bg-white">
+    					Контакты
+    				</div>
+    				<div class="card-body">
+    					<p class="card-text">(+38) 050-681-2769</p>
+    					<p><a href="#" class="card-link">facebook</a></p>
+    					<p><a href="#" class="card-link">logoanna1@gmail.com</a></p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-11 col-sm-9 col-md-7 text-center">
+    			<p class="card-header h5 bg-white text-center">Контактная форма</p>
+          <form action="formdata.php" method="POST" name="contact" class="py-3">
+            <div class="form-group">
+              <label for="guest_name">Фамилия и имя</label>
+              <div class="form-row justify-content-center">
+                <input class="form-control text-center col-lg-9 col-xl-8" type="text" name="guest_name" id="guest_name" placeholder="Введите имя и фамилию" maxlength="50">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="guest_phone">Номер телефона</label>
+              <div class="form-row justify-content-center">
+                <input class="form-control text-center col-lg-9 col-xl-8" type="email" name="guest_phonephone" id="guest_phone" placeholder="Введите номер телефона" maxlength="25">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="guest_email">Электронная почта</label>
+              <div class="form-row justify-content-center">
+                <input class="form-control text-center col-lg-9 col-xl-8" type="email" name="guest_email" id="guest_email" placeholder="Введите эл. почту" maxlength="60">
+              </div>
+            </div>
+            <div class="form-row justify-content-center py-3">
+              <div class="col-12">
+                <label for="guest_kid_age">Сколько лет ребёнку? </label>
+                <select id="guest_kid_age" class="custom-select">
+                  <option selected>Выбор</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row justify-content-center">
+              <div class="col-12">
+                <span>Вы уже занимались с логопедом? - </span>
+                <label>
+                  Да <input type="radio" name="guest_logoped_lessons" value="Yes">
+                </label>
+                <label>
+                  Нет <input type="radio" name="guest_logoped_lessons" value="No">
+                </label>
+              </div>
+            </div>
+            <div class="form-group py-2">
+              <label for="guest_question">Задайте нам вопрос</label>
+              <div class="form-row justify-content-center">
+                <textarea class="form-control text-center col-lg-10 col-xl-9" id="guest_question" rows="3" placeholder="Введите вопрос..." maxlength="500"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="reset" name="reset" value="Сбросить всё" class="btn btn-outline-warning mx-2">
+              <input type="submit" name="submit" value="Отправить" class="btn btn-outline-success mx-2">
+            </div>
+          </form>
+    		</div>
+    	</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
