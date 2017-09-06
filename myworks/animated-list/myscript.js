@@ -6,4 +6,4 @@ $(document).ready(function(){
 	}, function(){
 		$('#idUl li').not($(this)).stop().animate({opacity: opacLi, bottom: '3px'}, 100);
 	});
-}); // конец ready
+}); // end of ready
