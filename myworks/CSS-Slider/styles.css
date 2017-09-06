@@ -156,7 +156,10 @@ body {
 #slide2:checked ~ .slider .captions .c2, 
 #slide3:checked ~ .slider .captions .c3, 
 #slide4:checked ~ .slider .captions .c4, 
-#slide5:checked ~ .slider .captions .c5, 
 #slide6:checked ~ .slider .captions .c6 {
-	text-shadow: 0 0 0 rgba(255,255,255,.6);
+	text-shadow: 0 0 0 rgba(255,255,255, .6);
+}
+
+#slide5:checked ~ .slider .captions .c5 {
+	text-shadow: 0 0 0 rgba(0, 0, 0, .6);
 }
