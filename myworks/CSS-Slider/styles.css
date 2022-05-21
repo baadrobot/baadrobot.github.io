@@ -9,7 +9,7 @@ body {
 .container {
 	position: relative;
 	width: 900px;
-	height: 400px;
+	height: 500px;
 	font: arial;
 	margin: 60px auto 0;
 }
@@ -30,16 +30,16 @@ body {
 
 .img {
 	position: absolute;
-	perspective: 500px;
+	/* perspective: 500px; */
 	margin-left: -8px;
 }
 
-.img1 .frag { background-image: url(1.JPG); }
-.img2 .frag { background-image: url(2.JPG); }
-.img3 .frag { background-image: url(3.JPG); }
-.img4 .frag { background-image: url(4.JPG); }
-.img5 .frag { background-image: url(5.JPG); }
-.img6 .frag { background-image: url(6.JPG); }
+.img1 .frag { background-image: url(Wapusk-national-park-Churchill-Manitoba.JPG); }
+.img2 .frag { background-image: url(Winnipeg-snow-sun.JPG); }
+.img3 .frag { background-image: url(Winnipeg-green.JPG); }
+.img4 .frag { background-image: url(Winnipeg-mts.JPG); }
+.img5 .frag { background-image: url(Winnipeg-wallpaper.JPG); }
+.img6 .frag { background-image: url(Winnipeg-night.JPG); }
 
 .frag {
 	width: 150px;
@@ -156,10 +156,12 @@ body {
 #slide2:checked ~ .slider .captions .c2, 
 #slide3:checked ~ .slider .captions .c3, 
 #slide4:checked ~ .slider .captions .c4, 
+#slide5:checked ~ .slider .captions .c5,
 #slide6:checked ~ .slider .captions .c6 {
 	text-shadow: 0 0 0 rgba(255,255,255, .6);
 }
 
-#slide5:checked ~ .slider .captions .c5 {
+/* пример для изменения стилей для какой-то отдельной надписи */
+/* #slide5:checked ~ .slider .captions .c5 {
 	text-shadow: 0 0 0 rgba(0, 0, 0, .6);
-}
+} */
