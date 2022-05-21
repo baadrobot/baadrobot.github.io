@@ -91,8 +91,8 @@ function Circle(x, y, dx, dy, radius) {
 		this.y += this.dy;
 
 		// Интерактивность кругов (изменение размера)
-		if(mouse.x - this.x < 50 && mouse.x - this.x > -50 
-			&& mouse.y - this.y < 50 && mouse.y -this.y > -50) {
+		if(mouse.x - this.x < 40 && mouse.x - this.x > -40 
+			&& mouse.y - this.y < 40 && mouse.y -this.y > -40) {
 			if (this.radius < maxRadius) {
 				this.radius += 10;
 			}			
