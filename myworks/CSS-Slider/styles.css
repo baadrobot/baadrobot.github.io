@@ -34,12 +34,12 @@ body {
 	margin-left: -8px;
 }
 
-.img1 .frag { background-image: url(Wapusk-national-park-Churchill-Manitoba.JPG); }
-.img2 .frag { background-image: url(Winnipeg-snow-sun.JPG); }
-.img3 .frag { background-image: url(Winnipeg-green.JPG); }
-.img4 .frag { background-image: url(Winnipeg-mts.JPG); }
-.img5 .frag { background-image: url(Winnipeg-wallpaper.JPG); }
-.img6 .frag { background-image: url(Winnipeg-night.JPG); }
+.img1 .frag { background-image: url(Wapusk-national-park-Churchill-Manitoba.jpg); }
+.img2 .frag { background-image: url(Winnipeg-snow-sun.jpg); }
+.img3 .frag { background-image: url(Winnipeg-green.jpg); }
+.img4 .frag { background-image: url(Winnipeg-mts.jpg); }
+.img5 .frag { background-image: url(Winnipeg-wallpaper.jpg); }
+.img6 .frag { background-image: url(Winnipeg-night.jpg); }
 
 .frag {
 	width: 150px;
